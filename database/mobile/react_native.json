@@ -22,5 +22,13 @@
         "category": "mobile",
         "subcategory": "react_native",
         "language": "english"
+    },
+    {
+        "name": "React Native Mastery: Develop 10 Apps with Confidence",
+        "description": "Master React Native by building 10+ real-world applications from scratch. This comprehensive course takes you from complete beginner to professional mobile developer.",
+        "url": "https://youtu.be/kGtEax1WQFg?si=WKohuVOTBS4JB3h_",
+        "category": "mobile",
+        "subcategory": "react_native",
+        "language": "english"
     }
 ]

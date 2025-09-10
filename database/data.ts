@@ -161,7 +161,6 @@ export const sidebarData: ISidebar[] = [
       { name: 'Android', url: '/android', resources: DB.android },
       { name: 'React Native', url: '/react_native', resources: DB.react_native }
     ],
-
   },
   {
     category: 'open-source',
