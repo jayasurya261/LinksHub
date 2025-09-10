@@ -157,7 +157,10 @@ export const sidebarData: ISidebar[] = [
   },
   {
     category: 'mobile',
-    subcategory: [{ name: 'Android', url: '/android', resources: DB.android }],
+    subcategory: [
+      { name: 'Android', url: '/android', resources: DB.android },
+      { name: 'React Native', url: '/react_native', resources: DB.react_native }
+    ],
 
   },
   {
@@ -414,7 +417,7 @@ export const sidebarData: ISidebar[] = [
         url: '/javaLetters',
         resources: DB.javaLetters,
       },
-      { 
+      {
         name: 'devops',
         url: '/devopsLetters',
         resources: DB.devopsLetters,
