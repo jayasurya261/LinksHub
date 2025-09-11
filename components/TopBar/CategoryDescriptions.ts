@@ -64,7 +64,8 @@ const categoryDescriptions: CategoryDescriptions = {
     'Testing is the process of evaluating a system or its component(s) with the intent to find whether it satisfies the specified requirements or not.',
   validation:
     'Validation is the process of checking whether a system or its component(s) satisfies the specified requirements or not and checks the data is correct or not.',
-
+  sql_storymode :
+    'SQL Storymode teaches SQL through a story-driven approach. It provides step-by-step challenges, real-world scenarios, and hands-on exercises where you write SQL queries to solve problems and progress through the story. It’s a fun way to learn and practice SQL while applying concepts in context.',
   // cms toolkit
   headless_cms:
     'Decouple content management from presentation, allowing content delivery via APIs to various platforms. This flexibility enhances omnichannel distribution and user experiences.',
