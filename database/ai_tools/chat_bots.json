@@ -61,5 +61,12 @@
     "url": "https://grok.com/",
     "category": "ai-tools",
     "subcategory": "chat_bots"
+  },
+  {
+    "name": "Perplexity AI",
+    "description": "Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question.",
+    "url": "https://www.perplexity.ai/",
+    "category": "ai-tools",
+    "subcategory": "chat_bots"
   }
 ]
