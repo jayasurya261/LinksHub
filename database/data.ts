@@ -98,6 +98,11 @@ export const sidebarData: ISidebar[] = [
         url: '/nest_js',
         resources: DB.nestJs,
       },
+      {
+        name: 'SQL Storymode',
+        url: '/sql_storymode',
+        resources: DB.sql_storymode,
+      },
     ],
   },
   {
