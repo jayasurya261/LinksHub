@@ -52,14 +52,15 @@ export const Header: FC = () => {
       label: 'Saved',
       href: '/saved',
       isDisabled: true,
-    },
-    {
-      inActiveIcon: <Icons.teamInactive className={inActiveIconCls} />,
-      activeIcon: <Icons.teamActive className={activeIconCls} />,
-      label: 'Team',
-      href: '/contributors',
-      isDisabled: false,
     }
+    // ,
+    // {
+    //   inActiveIcon: <Icons.teamInactive className={inActiveIconCls} />,
+    //   activeIcon: <Icons.teamActive className={activeIconCls} />,
+    //   label: 'Team',
+    //   href: '/contributors',
+    //   isDisabled: false,
+    // }
   ]
 
   const renderLinks = () =>
@@ -100,7 +101,7 @@ export const Header: FC = () => {
           <ul className="w-full flex gap-0.5 tall:gap-1">{renderLinks()}</ul>
         </nav>
         <div className="flex items-center justify-center gap-[14px]">
-          {socialIcons.map(
+          {/* {socialIcons.map(
             ({ icon, title, href, ariaLabel, showOnMobile }, i) => (
               <Link
                 key={i}
@@ -117,17 +118,17 @@ export const Header: FC = () => {
                 {icon}
               </Link>
             )
-          )}
+          )} */}
           <ThemeToggler />
         </div>
 
-        <Button
+        {/* <Button
           label="Sponsor"
           icon={<Icons.heart className="h-5 w-5" />}
           variant="pale"
           link="https://github.com/sponsors/rupali-codes"
           className="hidden sm:flex"
-        />
+        /> */}
       </div>
     </header>
   )

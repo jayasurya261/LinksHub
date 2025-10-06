@@ -35,13 +35,14 @@ const MobileBottomNav: FC = () => {
       activeIcon: <Icons.searchActive className={activeIconCls} />,
       label: 'Search',
       onClick: toggleSearch,
-    },
-    {
-      inActiveIcon: <Icons.teamInactive className={inActiveIconCls} />,
-      activeIcon: <Icons.teamActive className={activeIconCls} />,
-      label: 'Team',
-      href: '/contributors',
-    },
+    }
+    ,
+    // {
+    //   inActiveIcon: <Icons.teamInactive className={inActiveIconCls} />,
+    //   activeIcon: <Icons.teamActive className={activeIconCls} />,
+    //   label: 'Team',
+    //   href: '/contributors',
+    // },
   ]
 
   const renderLinks = () =>
