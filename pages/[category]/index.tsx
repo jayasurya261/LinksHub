@@ -41,10 +41,10 @@ const CategoryPage = () => {
                 href="https://github.com/rupali-codes/LinksHub/issues/new?assignees=&labels=status%3A+awaiting+triage&projects=&template=other.yml&title=%5BOTHER%5D"
                 target="_blank"
               >
-                <Icons.messageIcon className="w-5 h-5 m-auto" />
+                {/* <Icons.messageIcon className="w-5 h-5 m-auto" />
                 <span className="text-md text-text-quinary hidden md:block">
                   Give a feedback
-                </span>
+                </span> */}
               </a>
             </div>
             <div className="flex max-w-1038 justify-center">
@@ -69,7 +69,7 @@ const CategoryPage = () => {
                     </div>
                   </Link>
                 ))}
-                <Link
+                {/* <Link
                   href={`https://github.com/rupali-codes/LinksHub/issues/new?assignees=&labels=chore%2Cgoal%3A+new-category%2Cpriority%3A+low&projects=&template=---category-suggestion.yml&title=%5BADD%5D+%3Cwrite+the+name+of+category%2Fsubcategory%3E`}
                   aria-label={`Add new subcategory issue template link`}
                   target="_blank"
@@ -87,7 +87,7 @@ const CategoryPage = () => {
                       Share resources, and help other fellows in the journey.{' '}
                     </div>
                   </div>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </>
